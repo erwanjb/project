@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist-vue/",
+        "sourceMap": true,
+        "noImplicitReturns": true,      
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "module": "es2015",
+        "target": "es5",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "baseUrl": "client-vue"
+    },
+    "include": [
+        "./client-vue/**/*"
+    ]
+}

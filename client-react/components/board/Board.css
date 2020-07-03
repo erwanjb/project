@@ -1,0 +1,73 @@
+.board {
+    display: flex;
+    align-items: center;
+}
+.boardTitle {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.boardLign {
+    margin: 0 5px;
+    display: flex;
+}
+.boardContent {
+    text-align: left;
+}
+
+.boardContentBlock{
+    display: flex;
+    justify-content: flex-start;
+}
+.blockDrop {
+    margin: 0 5px;
+    display: block;
+    width: 150px;
+    height: 25px;
+    background-color: lightgray;
+    content: "";
+}
+
+.tokenContainer {
+    width: 300px;
+    height: 30px;
+    background-color: gray;
+}
+
+.token{
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.outerBorder {
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBorder {
+    border: 2px solid black;
+    height: 580px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.carousel{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 200px;
+    perspective-origin: center top;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black; 
+}

@@ -1,0 +1,33 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "outDir": "./dist-angular/",
+      "baseUrl": "client-angular",
+      "sourceMap": true,
+      "declaration": false,
+      "downlevelIteration": true,
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "target": "es5",
+      "typeRoots": [
+        "node_modules/@types/angular"
+      ],
+      "types": [
+        "jasmine",
+        "node"
+      ],
+      "lib": [
+        "es2018",
+        "dom"
+      ]
+    },
+    "angularCompilerOptions": {
+      "fullTemplateTypeCheck": true,
+      "strictInjectionParameters": true
+    },
+    "include": [
+        "./client-angular/**/*"
+      ]
+  }
